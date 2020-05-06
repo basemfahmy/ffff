@@ -1,0 +1,382 @@
+/*start framework*/
+body{
+font-family: 'Archivo';
+}
+.container{max-width: 1130px;}
+h2,h3{
+    color: #081f3e;
+    text-transform: capitalize;
+}
+h2{ font-size: 35px;}
+h3{font-size: 20px}
+p{
+    color: #888888;
+    font-size: 16px;
+}
+.main-box{padding: 65px 0px 65px 0px; transition: all 0.3s ease;}
+.my-button{
+    padding: 10px 15px 10px 15px;
+    border-radius: 4px;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight:500;
+}
+.my-button:hover{
+    transition: all 0.3s ease;
+}
+.my-button a{    
+color: white;
+text-decoration: none;
+}
+.my-button:focus{outline: none}
+/*end framework*/
+
+/*start go up button*/
+.go-up{
+    position: fixed;
+    bottom: 45px;
+    z-index: 222;
+    right: 20px;
+    cursor: pointer;
+    padding: 10px 15px 10px 15px;
+    border-radius: 4px;
+    color: white;
+    display: none;
+}
+.go-up:focus{outline: none}
+/*end go up button*/
+
+/*start navbar*/
+.bg-light {
+    background-color:white !important;
+    padding: 10px 0px 10px 0px;
+    box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+    transition: all 0.3s ease
+}
+.fixed-nav{ /*  only when scroll usin jquery  */
+    position: fixed;
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+
+}
+.navbar-light .navbar-brand {
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: capitalize;
+    outline: none;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #888888;
+    font-size: 19px;
+    text-transform: capitalize;
+    margin-right: 18px;
+    font-weight:500;
+    border-radius: 4px;
+    padding: 10px 15px 10px 15px;
+}
+.navbar-light .navbar-nav .nav-link:focus{  color: #888888;}
+.navbar-light .navbar-nav .nav-link:hover  {
+    padding: 10px 15px 10px 15px;
+    border-radius: 4px;
+    color:white;
+    transition: all 0.3s ease;
+}
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active{  /*for active class*/
+    color: white;
+}
+.navbar-light .navbar-toggler{outline: none}
+.navbar-light .navbar-toggler i{font-size:25px}
+
+/*end navbar */
+
+/* start theme options box*/
+.options-box{
+    position: fixed;
+    z-index: 888;
+    top: 200px;
+    padding: 0px;
+    margin: 0;
+    left: -251px;    /*we will show it with jquery*/
+}
+.options-box .options{
+    position: absolute;
+    background: #eff2f4;
+    width: 250px;
+    height: 120px;
+    padding: 10px;
+    padding-bottom: 115px;
+    border-radius: 4px;
+    text-align: center;    
+}
+.options-box .options ul { 
+    margin-left: -36px;
+    margin-top: -13px;
+}
+.options-box .options ul li{
+    width: 30px; 
+    height: 30px;
+    border-radius: 4px;
+    cursor: pointer;
+    list-style: none;
+    display: inline-block;
+    margin-right: 6px;
+}
+.options-box .options ul li:nth-child(1){background-color:#45bd3e }
+.options-box .options ul li:nth-child(2) {background-color:#ff5f4f }
+.options-box .options ul li:nth-child(3){background-color:#ba54ff }
+.options-box .options ul li:nth-child(4){background-color:#107FC9 }
+.options-box .options p{
+   font-size: 18px;
+   line-height: 50px;
+}
+.options-box .icon{
+position: absolute;
+    padding: 10px 14px 10px 13px;
+    left: 250px;
+    top: 35px;
+     border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
+/* end theme options box*/
+
+/*start header*/
+.header{
+    padding-top: 110px;
+}
+.header .info h2{
+    font-size: 40px;
+    text-transform: capitalize;
+    line-height: 52px;
+    width: 90%;
+}
+.header .info p{
+    margin: 12px 0px 12px 0px;
+    width: 85%;
+    line-height: 27px;
+}
+.header .image img{ 
+    width: 80%;
+    margin-left: 90px;
+    border-radius: 4px;
+    box-shadow: 0 8px 20px 1px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+} 
+/*end header*/
+
+/*start about*/
+.about{padding-top: 110px}
+.about .image img{ 
+    width: 80%;
+    border-radius: 4px;
+    box-shadow: 0 8px 20px 1px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+.about .info{ margin-left:40px}
+.about .info h2{
+    font-size: 40px;
+    text-transform: capitalize;
+    line-height: 52px;
+    width: 90%;
+    margin-left: 40px;
+    margin-bottom: 25px;
+}
+.about .info ul li{
+    list-style: none;
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    color: #888888;
+}
+.about .info ul li i{
+    font-size: 12px;
+    padding: 6px;
+    display: inline-block;
+    margin-right: 10px;
+    border-radius: 50%;
+    color: white;
+}
+/*end about*/
+
+/*start departments*/
+.departments .info h2{
+    text-transform: capitalize;
+    line-height: 52px;
+    width: 90%;
+}
+.departments .info p{
+    margin: 12px 0px 12px 0px;
+    width: 80%;
+    line-height: 27px;
+}
+.departments .depart-list{margin-top: 36px;}
+.departments .depart-list .item{ 
+    text-align: center;  
+    cursor: pointer;
+}
+.departments .depart-list .item i{
+  font-size: 35px;
+}
+.departments .depart-list .item h3{margin-top: 10px }
+.hvr-icon-pulse-grow{display: block} /*for hover.css library*/
+/*end departments*/
+
+/*start blogs*/
+.blogs h2{text-align: center;}
+.blogs .blog-body{margin-top: 60px;}
+.blogs .blog-body section{
+    position: relative; 
+    cursor: pointer
+}
+.blogs .blog-body section{overflow: hidden; border-radius: 4px;} /*parent of img*/
+.blogs .blog-body img{width: 100%;  }
+
+
+.blogs .blog-body span{
+   display: inline-block;
+    position: absolute;
+     border-radius: 4px;
+    padding: 10px;
+    color: white;
+    right: 12px;
+    top: 20px;
+}
+.blogs .blog-body .info{ padding-top: 20px;}
+.blogs .blog-body .info p{padding: 12px 0px 5px 0px}
+.blogs .blog-body .info a{text-transform: capitalize; }
+.blogs .blog-body .info a i{margin-left: 2px;}
+/*end blogs*/
+
+/*start our numbers*/
+.our-numbers{background-color: #eff2f4;}
+.our-numbers .item{text-align: center;}
+.our-numbers .item i  {
+    font-size: 40px;
+}
+.our-numbers .item p{
+    margin: 15px 0px 11px 0px;
+    font-size: 30px;
+}
+.our-numbers .item h3{ color: #888888}
+/*end our numbers*/
+
+/*start appointmnet*/
+.appointmnet .image h2{margin-bottom: 30px;}
+.appointmnet .image img{
+    width: 80%;
+    border-radius: 4px;
+    box-shadow: 0 8px 20px 1px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+.appointmnet form{margin-top: 10px;}
+.appointmnet form span{    
+    position: absolute;
+    top: 13px;
+    right: 35px;
+    color: red;
+    display: none
+}
+.appointmnet form input{
+    padding: 10px 15px 10px 15px;
+    border-radius: 4px;
+    border: 1px solid #ced4da;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.appointmnet form textarea{
+    border:1px solid #ced4da;
+    width: 100%;
+    margin-bottom: 10px;
+    height: 130px;
+    padding: 10px 15px 10px 15px;
+    resize: none;
+}
+.appointmnet form input::placeholder ,.appointmnet form textarea::placeholder{
+    text-transform: capitalize;
+}
+.appointmnet form input:focus,.appointmnet form textarea:focus{
+    outline: none;
+}
+.appointmnet form .my-button{color:white}
+/*end appointmnet*/
+
+/*start our-patient */
+
+.our-patients h2{text-align: center}
+.our-patients .patient{
+    text-align: center;
+    padding: 30px 40px 30px 40px;
+    cursor: pointer;
+    margin-top: 27px;
+    margin-right: 50px;
+}
+.owl-carousel.owl-drag .center .patient{ /*item in center only*/
+    transform: scale(1.1 ,1.1);
+        margin-top: 0px;
+    padding: 50px 30px 50px 30px;
+}
+
+.owl-carousel .owl-item img {
+    display: block;
+    width: 35%;
+    margin:auto;
+    z-index: 999;
+    position: relative;
+    border-radius: 50%;
+}
+
+.patient p { padding: 30px 0px 10px 0px;}
+.owl-carousel {margin-top: 30px;}
+.our-patients .owl-theme .owl-dots .owl-dot { display: none;}
+.owl-carousel .owl-nav button.owl-prev , .owl-carousel .owl-nav button.owl-next {
+padding: 0px 20px 0px 20px !important;    
+outline: none
+}
+.owl-theme .owl-nav { margin-top: 60px; margin-left: -50px}
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev
+{color: white;font-size: 30px}
+/*end our-patient */
+
+/*start footer*/
+.footer{ 
+    padding: 45px 0px 37px 0px;
+    background: #eff2f4;
+}
+
+.footer h2{
+    margin-bottom: 19px; 
+    font-size: 23px;
+}
+.footer .item{margin-bottom: 25px}
+.footer .info p{width: 85%;}
+.footer .info .icons{margin-top: 25px;}
+.footer .info .icons i{
+    font-size: 18px;
+    margin-right: 8px;
+}
+.footer .working div{text-transform: capitalize}
+.footer .working div p{display: inline-block;}
+.footer .working div span{
+    float: right;
+    width: 55%;
+}
+.footer .contact span{
+    display: block;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.footer .contact i{margin-right: 13px;}
+{ 
+    text-align: left;
+    text-transform: capitalize;
+    font-size: 17px;
+    margin-top: 28px;
+}
+.footer .copy-right{
+    margin-top: 35px;
+    text-transform: capitalize;
+}
+.footer .working div span,.footer .contact span,.footer .copy-right{ color: #888888;}
+/*end footer*/

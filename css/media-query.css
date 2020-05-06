@@ -1,0 +1,98 @@
+/*start xs screen*/
+@media(max-width:575px){
+h2 {font-size: 29px;}
+.options-box {top: 365px;}    
+.bg-light{padding: 13px; width: 100%; position: fixed}
+.navbar-light .navbar-toggler{margin-right: 13px}    
+.navbar-light .navbar-brand { margin-left: 13px;}
+.navbar-light .navbar-nav .active > .nav-link{background:none; color:#107FC9}
+.navbar-light .navbar-nav .nav-link:hover{background:none; color:#107FC9}
+.header{ padding-top: 130px; height: auto; padding-bottom: 0px;}
+.header .info p {width: 100%;margin-bottom: 22px;}
+.header .info h2  {width: 100%;  font-size: 30px; line-height: 40px}
+.header .image img {margin-top: 30px; margin-left: 0px;}
+.about {padding-top: 65px}    
+.about .info {margin-left: -40px; }
+.about .info h2{ font-size: 30px; line-height: 40px }
+.order-change{order: 2}
+.about .image img {margin-top: 22px}
+.departments .info{text-align: center}
+.departments .info p, .departments .info h2 { width: 100%;}
+.departments .depart-list{margin-top: 20px;}    
+.departments .depart-list .item {margin-bottom: 30px;}
+.our-numbers .item {margin-bottom: 30px;}
+.departments .depart-list .item i {font-size: 37px;}    
+.appointmnet{padding-top: 65px;text-align: center}
+.appointmnet .image img {margin-bottom: 30px;}
+.our-patients h2{font-size: 28px;  margin-bottom: -25px;}
+.our-patients .patient {margin-right: 0px;}
+.owl-theme .owl-nav {margin-top: 0px;margin-left: 0px;}
+}
+/*end xs screen*/
+
+/*start sm screen*/
+@media(min-width:576px) and (max-width:767px){
+ .options-box { top: 265px;}
+.bg-light{padding: 13px; width: 100%; position: fixed}
+.navbar-light .navbar-toggler{margin-right: 13px}
+.navbar-light .navbar-brand { margin-left: 13px;}
+.navbar-light .navbar-nav .active > .nav-link{background:none; color:#107FC9}
+.navbar-light .navbar-nav .nav-link:hover{background:none; color:#107FC9} 
+.header{padding-top: 150px;}
+.header .info h2  {width: 100%;  font-size: 35px; line-height: 45px}
+.header .info p { margin-bottom: 27px;    margin-top: 27px;}
+.header .image img {width: 90%; margin-left: 20px;}
+.about {padding-top: 65px}        
+.about .image img{width: 90%} 
+.about .info { margin-left: -40px;}
+.about .info h2{width: 85%;  font-size: 35px; line-height: 45px;} 
+.departments .info {text-align: center}    
+.departments .info h2 {width: 100%;}
+.departments .info p { margin-bottom: 30px;width: 100%}
+.departments .depart-list{margin-top: 15px}    
+.departments .depart-list .item {margin-bottom: 30px; }  
+.our-numbers .item {margin-bottom: 30px;}
+.appointmnet .image img {width: 90%;}
+.our-patients{padding-top: 5px;}
+.our-patients h2{font-size: 28px;  margin-bottom: -25px;}
+.our-patients .patient {margin-right: 0px;}
+.owl-theme .owl-nav {margin-top: 0px;margin-left: 0px;}
+.owl-carousel .owl-item img { width: 22%;}
+.footer .working div span { width: 42%;}    
+}
+/*end sm screen*/
+
+/*start md screen*/
+@media(min-width:768px) and (max-width:991px){
+.options-box {top:510px;}
+.bg-light{padding: 13px; width: 100%; position: fixed}
+.navbar-light .navbar-toggler{margin-right: 13px}
+.navbar-light .navbar-brand { margin-left: 13px;}
+.navbar-light .navbar-nav .active > .nav-link{background:none; color:#107FC9}
+.navbar-light .navbar-nav .nav-link:hover{background:none; color:#107FC9}  
+.header{padding-top: 170px;}
+.header .info p { margin-bottom: 27px; margin-top: 20px; margin-top: 27px;}
+.header .image img {width: 90%; margin-left: 20px;}
+.about {padding-top: 65px}            
+.about .image img{width: 90%} 
+.about .info { margin-left: -40px;}
+.departments .depart-list{margin-top: 15px;}        
+.departments .depart-list .item {margin-bottom: 20px;}
+.departments .depart-list .item h3{font-size: 19px}
+.our-patients{padding-top: 5px;}
+.our-patients h2{font-size: 28px;  margin-bottom: -25px;}
+.our-patients .patient {margin-right: 0px;}
+.owl-theme .owl-nav {margin-top: 0px;margin-left: 0px;}
+.owl-carousel .owl-item img { width: 22%;}
+.footer h2 {margin-bottom: 19px;font-size: 20px;}    
+}
+/*end md screen*/
+
+/*start lg screen*/
+@media(min-width:992px) and (max-width:1199px){
+.options-box {top: 448px;}
+.departments .depart-list{margin-top: 0px;}        
+.departments .depart-list .item {margin-bottom: 20px;}  
+    
+}
+/*start lg screen*/

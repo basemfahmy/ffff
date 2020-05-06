@@ -1,0 +1,36 @@
+/*start main theme color  */
+.navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.show, 
+.navbar-light .navbar-nav .nav-link.active,
+.about .info ul li i,
+.blogs .blog-body span,
+.owl-carousel .owl-nav button.owl-prev ,
+.owl-carousel .owl-nav button.owl-next ,
+.my-button ,
+.options-box .icon,.go-up
+{background-color:#ba54ff;}
+
+.navbar-light .navbar-brand,
+.blogs .blog-body .info a,
+.departments .depart-list .item i,
+.owl-carousel.owl-drag .center .patient h3,.footer h2,
+.our-numbers .item p,
+.our-numbers .item i,
+.blogs .blog-body .info a,
+.footer .info .icons i,
+.navbar-light .navbar-toggler i
+{ color: #ba54ff;}
+
+.navbar-light .navbar-toggler {border: 1.5px solid #ba54ff;}
+.my-button,.go-up{border: 1px solid #ba54ff;}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.owl-carousel .owl-nav button.owl-prev:hover,
+.owl-carousel .owl-nav button.owl-next:hover
+{background-color: #ba54ff;}
+
+.navbar-light .navbar-brand:hover,
+.navbar-light .navbar-brand:focus
+{ color:#ba54ff;}
+/*end main theme color */
