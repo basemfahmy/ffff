@@ -27,6 +27,8 @@ h2 {font-size: 29px;}
 .our-patients h2{font-size: 28px;  margin-bottom: -25px;}
 .our-patients .patient {margin-right: 0px;}
 .owl-theme .owl-nav {margin-top: 0px;margin-left: 0px;}
+.go-up {display: none !important}    
+    
 }
 /*end xs screen*/
 
