@@ -19,7 +19,7 @@
 .our-numbers .item i,
 .blogs .blog-body .info a,
 .footer .info .icons i,
-.navbar-light .navbar-toggler i
+.navbar-light .navbar-toggler i,.navbar-light .navbar-nav .nav-link
 { color: #45bd3e;}
 
 .navbar-light .navbar-toggler {border: 1.5px solid #45bd3e;}
